@@ -2,8 +2,15 @@
 
 int main(void)
 {
-   printf("hello, world");
+   printf("hello, world\n");
 }   
 
-run hello.c
+$ clang hello.c
+$ ./a.out
+hello,world
+
+
+
+
+
 
